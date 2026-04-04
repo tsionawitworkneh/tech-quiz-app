@@ -3,10 +3,10 @@ import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView, Animated } from
 import { Colors } from '../theme';
 
 export default function QuizScreen({ route, navigation }) {
-  // 1. Get the questions passed from the Home Screen
+  
   const { questions } = route.params;
 
-  // 2. State Management
+ 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
@@ -109,7 +109,7 @@ export default function QuizScreen({ route, navigation }) {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background, padding: 20 },
   header: { marginBottom: 30, marginTop: 10 },
-  progressText: { color: Colors.subText, fontSize: 14, marginBottom: 10, fontWeight: '600' },
+  progressText: { color: Colors.subText, fontSize: 14, marginBottom: 10, fontWeight: '600', textAlign: 'center' },
   progressBarBg: { height: 8, backgroundColor: Colors.border, borderRadius: 4 },
   progressBarFill: { height: 8, backgroundColor: Colors.primary, borderRadius: 4 },
   
