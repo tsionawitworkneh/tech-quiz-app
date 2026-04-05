@@ -141,13 +141,14 @@ const styles = StyleSheet.create({
   correctOption: { borderColor: Colors.success, backgroundColor: '#ECFDF5' },
   wrongOption: { borderColor: Colors.error, backgroundColor: '#FEF2F2' },
 
-  footer: { height: 80, justifyContent: 'center' },
+  footer: { height: 80, justifyContent: 'flex-end', paddingBottom: 20 },
   nextButton: {
     backgroundColor: Colors.primary,
     padding: 10,
     borderRadius: 16,
     alignItems: 'center',
     elevation: 2,
+    marginBottom: 20,
   },
   nextButtonText: { color: '#FFF', fontSize: 18, fontWeight: 'bold' }
 });

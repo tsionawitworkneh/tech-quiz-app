@@ -1,8 +1,8 @@
 export const CATEGORIES = [
-  { id: '1', name: 'Frontend', icon: 'code-xml', color: '#EEF2FF' },
+  { id: '1', name: 'Frontend', icon: 'CodeXml', color: '#EEF2FF' },
   { id: '2', name: 'Backend', icon: 'Database', color: '#ECFDF5' },
   { id: '3', name: 'Mobile Computing', icon: 'Smartphone', color: '#FFF7ED' },
-  { id: '4', name: 'Data Structure', icon: 'code', color: '#F5F3FF' },
+  { id: '4', name: 'Data Structure', icon: 'Code', color: '#F5F3FF' },
 ];
 
 export const QUESTIONS = {
