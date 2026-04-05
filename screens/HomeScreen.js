@@ -37,6 +37,7 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.welcomeText}>Master whatever you're learning with TechQuizy.</Text>
       <Text style={styles.welcomeText}>What subject do you want to take a quiz on today?</Text>
       
       <FlatList
