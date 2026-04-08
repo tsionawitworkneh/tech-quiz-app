@@ -14,7 +14,7 @@ export default function ResultScreen({ route, navigation }) {
     if (percentage === 100) return "Advanced Level! 🚀";
     if (percentage >= 80) return "Great Job! You neeled it..";
     if (percentage >= 60) return "Keep Practicing! You're getting there.";
-    return "Time to revise your notes! 📚";
+    return "Time to revise your notes! Don't worry, practice makes perfect.";
   };
 
   return (

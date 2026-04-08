@@ -61,8 +61,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: Colors.subText,
     paddingHorizontal: 20,
-    marginTop: 10,
-    marginBottom: 20,
+    marginTop: 20,
+    marginBottom: 10,
     fontWeight: '500',
   },
   listPadding: {
